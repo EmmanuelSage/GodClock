@@ -1,14 +1,12 @@
-export const getDateTimeByHoursInADay = (hoursInADay: number = 24) => {
+const JUNE_23_IN_MILLISECONDS = 1624402800000;
+
+export const getDateTimeByHoursInADay = (
+  hoursInADay: number = 24,
+  startindDay: number = JUNE_23_IN_MILLISECONDS
+) => {
   const currentDate = new Date();
 
-  const resetDate = new Date(
-    currentDate.getFullYear(),
-    currentDate.getMonth(),
-    currentDate.getDate(),
-    0,
-    0,
-    0
-  );
+  const resetDate = new Date(startindDay);
 
   const currentDateMilliseconds = currentDate.getTime();
   const resetDateMilliseconds = resetDate.getTime();
