@@ -26,7 +26,7 @@ There is a deployed verision on netlify with 30 hours in a day [HERE](https://si
 [ ] Extend GodClock to count to set hours i.e (00:00 - 30:00) instead of only having the option to run 30 hours in 24hrs i.e (00:00 - 24:00)
 
 
-- Future Settings Todo
+## Future Settings Todo
 
 1. choose to run 30hrs in a day or sync
 2. sync real life events with calendar so you know when it falls on your virtual one
