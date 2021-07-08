@@ -1,9 +1,16 @@
-import React from "react";
-import "./App.css";
-import GodClock from "./components/GodClock";
+import React, { useState } from "react";
+import GodClock from "./components/GodClock/GodClock";
 
 function App() {
-  return <GodClock hoursInADay={30} />;
+  const [value, setValue] = useState(30)
+
+const onClickHandler = (value: number) => {
+  setValue(value);
+};
+
+  return (
+      <GodClock changeHourSlug={onClickHandler} hoursInADay={value} />
+  );
 }
 
 export default App;
