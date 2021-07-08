@@ -1,0 +1,36 @@
+
+.input-button {
+  visibility: hidden;
+}
+
+input[type="number"] {
+  color: #fff;
+  /* opacity: 0.5; */
+  outline: 0;
+  border: none;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  width: 2rem;
+}
+
+input[type="number"]:in-range {
+  background-color: transparent;
+}
+
+input[type="number"]:not(:in-range) {
+  background-color: rgba(238, 105, 57, 0.623);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
