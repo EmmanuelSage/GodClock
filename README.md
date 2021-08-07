@@ -1,8 +1,3 @@
-## The origins of the GodClock
-
-This is as a result of a [tweet by ola](https://twitter.com/codngr/status/1406949055658442760),
-It just kept nagging me so, over two hours of my life gone, but worth it.
-
 ## What is the GodClock
 
 Well if you ever wished you had more hours in the day,
